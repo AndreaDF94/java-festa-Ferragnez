@@ -18,3 +18,11 @@ public class FestaFerragnez {
         // Controllo con if
         boolean isInvitedIf = CheckGuest.containsUsingIf(guestList, userName);
         System.out.println("[IF] Risultato: " + (isInvitedIf ? "Sei invitato! Puoi entrare." : "Mi dispiace, non sei sulla lista."));
+
+                // Controllo con while
+        boolean isInvitedWhile = CheckGuest.containsUsingWhile(guestList, userName);
+        System.out.println("[WHILE] Risultato: " + (isInvitedWhile ? "Sei invitato! Puoi entrare." : "Mi dispiace, non sei sulla lista."));
+
+        scanner.close();
+    }
+}
