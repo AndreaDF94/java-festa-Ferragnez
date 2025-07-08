@@ -13,3 +13,8 @@ public class FestaFerragnez {
          // Chiedi all'utente il nome
         System.out.print("Benvenuto alla festa Ferragnez! Come ti chiami? ");
         String userName = scanner.nextLine();
+
+        
+        // Controllo con if
+        boolean isInvitedIf = CheckGuest.containsUsingIf(guestList, userName);
+        System.out.println("[IF] Risultato: " + (isInvitedIf ? "Sei invitato! Puoi entrare." : "Mi dispiace, non sei sulla lista."));
