@@ -1,0 +1,1 @@
+public class CheckGuest { // Classe che contiene i metodi di verifica degli invitati
